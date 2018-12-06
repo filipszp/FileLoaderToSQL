@@ -1,0 +1,6 @@
+pl/profsoft/lomboktest/LombokTest.class
+pl/profsoft/lomboktest/FileAdapterReader.class
+pl/profsoft/lomboktest/config/HibernateConfig.class
+pl/profsoft/lomboktest/entities/Client.class
+pl/profsoft/lomboktest/FileAdapterWriter.class
+pl/profsoft/lomboktest/service/ClientService.class

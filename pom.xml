@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+	<groupId>pl.profsoft</groupId>
+	<artifactId>LombokTest</artifactId>
+	<version>1.0</version>
+	<packaging>jar</packaging>
+	<properties>
+		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+		<maven.compiler.source>1.8</maven.compiler.source>
+		<maven.compiler.target>1.8</maven.compiler.target>
+	</properties>
+	<dependencies>
+		<!-- https://mvnrepository.com/artifact/javax.validation/validation-api -->
+		<dependency>
+			<groupId>javax.validation</groupId>
+			<artifactId>validation-api</artifactId>
+			<version>1.0.0.GA</version>
+		</dependency>
+		<dependency>
+			<groupId>org.hibernate</groupId>
+			<artifactId>hibernate-validator-annotation-processor</artifactId>
+			<version>4.1.0.Final</version>
+		</dependency>
+		<dependency>
+			<groupId>org.projectlombok</groupId>
+			<artifactId>lombok</artifactId>
+			<version>1.16.12</version>
+		</dependency>
+		
+		<!-- https://mvnrepository.com/artifact/org.slf4j/slf4j-api -->
+		<dependency>
+			<groupId>org.slf4j</groupId>
+			<artifactId>slf4j-api</artifactId>
+			<version>1.8.0-beta2</version>
+		</dependency>
+		
+		<!-- https://mvnrepository.com/artifact/commons-io/commons-io -->
+		<dependency>
+			<groupId>commons-io</groupId>
+			<artifactId>commons-io</artifactId>
+			<version>2.6</version>
+		</dependency>
+		
+		<dependency>
+			<groupId>org.hibernate</groupId>
+			<artifactId>hibernate-core</artifactId>
+			<version>5.3.7.Final</version>
+		</dependency>
+
+		<dependency>
+			<groupId>mysql</groupId>
+			<artifactId>mysql-connector-java</artifactId>
+			<version>8.0.13</version>
+		</dependency>
+	 <dependency>
+	  <groupId>org.hibernate</groupId>
+	  <artifactId>hibernate-entitymanager</artifactId>
+	  <version>4.3.1.Final</version>
+	 </dependency>
+	 <dependency>
+	  <groupId>unknown.binary</groupId>
+	  <artifactId>derbyclient</artifactId>
+	  <version>SNAPSHOT</version>
+	 </dependency>
+	 <dependency>
+	  <groupId>unknown.binary</groupId>
+	  <artifactId>derby</artifactId>
+	  <version>SNAPSHOT</version>
+	 </dependency>
+	</dependencies>
+	<name>LombokTest</name>
+ <repositories>
+  <repository>
+   <id>unknown-jars-temp-repo</id>
+   <name>A temporary repository created by NetBeans for libraries and jars it could not identify. Please replace the dependencies in this repository with correct ones and delete this repository.</name>
+   <url>file:${project.basedir}/lib</url>
+  </repository>
+ </repositories>
+</project>

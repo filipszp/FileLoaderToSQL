@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Maven: unknown.binary:derby:SNAPSHOT">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/unknown/binary/derby/SNAPSHOT/derby-SNAPSHOT.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$MAVEN_REPOSITORY$/unknown/binary/derby/SNAPSHOT/derby-SNAPSHOT-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$MAVEN_REPOSITORY$/unknown/binary/derby/SNAPSHOT/derby-SNAPSHOT-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>
